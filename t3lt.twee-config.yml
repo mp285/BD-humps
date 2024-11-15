@@ -1,0 +1,9 @@
+sugarcube-2:
+  macros:
+    hypeStartTimelineNamed:
+      name: hypeStartTimelineNamed
+    contentLayout:
+      name: contentLayout
+      container: true
+    hypeEmbed:
+      name: hypeEmbed

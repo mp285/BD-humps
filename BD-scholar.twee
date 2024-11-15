@@ -41,8 +41,8 @@ BD-scholar
 
 
 
-:: Untitled Passage 2 {"position":"600,950","size":"100,100"}
-
+:: devnotes {"position":"600,950","size":"100,100"}
+i am notes
 
 
 :: about {"position":"500,100","size":"100,100"}
@@ -100,6 +100,7 @@ BD-scholar
 
 :: choose {"position":"150,150","size":"100,100"}
 
+lol
 
   <<contentLayout full>>
   <<hypeEmbed bdsx full>>
@@ -123,9 +124,6 @@ BD-scholar
     };
   <</hypeCode>>
   
-  
-
-
 
 :: choreo {"position":"300,400","size":"100,100"}
 <<contentLayout full>>
