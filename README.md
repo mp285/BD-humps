@@ -1,5 +1,5 @@
-# bha-s
-For yet another implementation chain / workflow idea for BHA
+# my humps... my humps my humps my humps
+Scholars editions
 
 #website link
-https://mp285.github.io/bha-s/
+https://mp285.github.io/BD-humps/
