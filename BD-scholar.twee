@@ -1,0 +1,608 @@
+:: StoryTitle
+BD-scholar
+
+
+:: StoryData
+{
+  "ifid": "99e384f1-eeaf-4776-89f3-729f1f9864f3",
+  "format": "SugarCube",
+  "format-version": "2.36.1",
+  "start": "start",
+  "zoom": 1
+}
+
+
+:: Dawes-break {"position":"1150,550","size":"100,100"}
+<<contentLayout full>>
+<<hypeEmbed bdsx full>>
+<<hypeShowSceneNamed bdsx Dawes-break>>
+<<hypeStartTimelineNamed bdsx animation>>
+<</contentLayout>>
+
+
+:: IM-dance {"position":"1275,550","size":"100,100"}
+<<contentLayout full>>
+<<hypeEmbed bdsx full>>
+<<hypeShowSceneNamed bdsx IM-dance>>
+<<hypeStartTimelineNamed bdsx animation>>
+<</contentLayout>>
+
+
+:: ONCM-break {"position":"975,675","size":"100,100"}
+<<contentLayout full>>
+<<hypeEmbed bdsx full>>
+<<hypeShowSceneNamed bdsx ONCM-break>>
+<<hypeStartTimelineNamed bdsx animation>>
+<</contentLayout>>
+
+
+:: StoryCaption {"position":"1000,100","size":"100,100"}
+<button id="export-history">Download History as CSV</button>
+
+
+
+:: Untitled Passage 2 {"position":"600,950","size":"100,100"}
+
+
+
+:: about {"position":"500,100","size":"100,100"}
+<<contentLayout full>>
+<<hypeEmbed bdsx full>>
+<<hypeShowSceneNamed bdsx about>>
+<<hypeStartTimelineNamed bdsx animation>>
+<</contentLayout>>
+
+
+:: assembly {"position":"850,675","size":"100,100"}
+<<contentLayout full>>
+<<hypeEmbed bdsx full>>
+<<hypeShowSceneNamed bdsx assembly>>
+<<hypeStartTimelineNamed bdsx animation>>
+<</contentLayout>>
+
+
+:: born-crazy {"position":"1400,550","size":"100,100"}
+<<contentLayout full>>
+<<hypeEmbed bdsx full>>
+<<hypeShowSceneNamed bdsx born-crazy>>
+<<hypeStartTimelineNamed bdsx animation>>
+<</contentLayout>>
+
+
+:: born-crazy-remix {"position":"1525,550","size":"100,100"}
+<<contentLayout full>>
+<<hypeEmbed bdsx full>>
+<<hypeShowSceneNamed bdsx born-crazy-remix>>
+<<hypeStartTimelineNamed bdsx animation>>
+<</contentLayout>>
+
+
+:: break-macharia {"position":"275,525","size":"100,100"}
+<<hypeCode bdsx>>
+  var btn = document.querySelector('.nextbutton');
+    var Twine = hypeDocument.getTwineContext();
+    btn.onclick = function(){
+        Twine.Engine.play('disclosure');
+    }
+<</hypeCode>>
+
+
+<<contentLayout full>>
+<<hypeEmbed bdsx full>>
+<<hypeShowSceneNamed bdsx break-macharia>>
+<<hypeStartTimelineNamed bdsx animation>>
+<</contentLayout>>
+
+
+
+
+
+
+:: choose {"position":"150,150","size":"100,100"}
+
+
+  <<contentLayout full>>
+  <<hypeEmbed bdsx full>>
+  <<hypeShowSceneNamed bdsx choose>>
+  <<hypeStartTimelineNamed bdsx MainTimeline>>
+  <</contentLayout>>
+
+  <<hypeCode bdsx>>
+    var btn = document.querySelector('.breakbutton');
+    var Twine = hypeDocument.getTwineContext();
+    btn.onclick = function() {
+        Twine.Engine.play('title-b');
+    };
+  <</hypeCode>>
+  
+  <<hypeCode bdsx>>
+    var btn = document.querySelector('.dancebutton');
+    var Twine = hypeDocument.getTwineContext();
+    btn.onclick = function() {
+        Twine.Engine.play('title-d');
+    };
+  <</hypeCode>>
+  
+  
+
+
+
+:: choreo {"position":"300,400","size":"100,100"}
+<<contentLayout full>>
+<<hypeEmbed bdsx full>>
+<<hypeShowSceneNamed bdsx choreo>>
+<<hypeStartTimelineNamed bdsx animation>>
+<</contentLayout>>
+
+
+:: citations {"position":"625,100","size":"100,100"}
+<<contentLayout full>>
+<<hypeEmbed bdsx full>>
+<<hypeShowSceneNamed bdsx citations>>
+<<hypeStartTimelineNamed bdsx animation>>
+<</contentLayout>>
+
+
+:: credits {"position":"750,100","size":"100,100"}
+<<contentLayout full>>
+<<hypeEmbed bdsx full>>
+<<hypeShowSceneNamed bdsx credits>>
+<<hypeStartTimelineNamed bdsx animation>>
+<</contentLayout>>
+
+
+:: cutlass-b {"position":"600,675","size":"100,100"}
+<<contentLayout full>>
+<<hypeEmbed bdsx full>>
+<<hypeShowSceneNamed bdsx cutlass-b>>
+<<hypeStartTimelineNamed bdsx animation>>
+<</contentLayout>>
+
+
+:: cutlass-d {"position":"725,675","size":"100,100"}
+<<contentLayout full>>
+<<hypeEmbed bdsx full>>
+<<hypeShowSceneNamed bdsx cutlass-d>>
+<<hypeStartTimelineNamed bdsx animation>>
+<</contentLayout>>
+
+
+:: dance-james {"position":"150,525","size":"100,100"}
+<<contentLayout full>>
+<<hypeEmbed bdsx full>>
+<<hypeShowSceneNamed bdsx dance-james>>
+<<hypeStartTimelineNamed bdsx animation>>
+<</contentLayout>>
+
+
+:: digital-gap {"position":"900,550","size":"100,100"}
+<<contentLayout full>>
+<<hypeEmbed bdsx full>>
+<<hypeShowSceneNamed bdsx digital-gap>>
+<<hypeStartTimelineNamed bdsx animation>>
+<</contentLayout>>
+
+
+:: disanimation {"position":"1100,675","size":"100,100"}
+<<contentLayout full>>
+<<hypeEmbed bdsx full>>
+<<hypeShowSceneNamed bdsx disanimation>>
+<<hypeStartTimelineNamed bdsx animation>>
+<</contentLayout>>
+
+
+:: disclosure {"position":"425,400","size":"100,100"}
+<<contentLayout full>>
+<<hypeEmbed bdsx full>>
+<<hypeShowSceneNamed bdsx disclosure>>
+<<hypeStartTimelineNamed bdsx animation>>
+<</contentLayout>>
+
+
+:: end {"position":"1225,675","size":"100,100"}
+<<contentLayout full>>
+<<hypeEmbed bdsx full>>
+<<hypeShowSceneNamed bdsx end>>
+<<hypeStartTimelineNamed bdsx animation>>
+<</contentLayout>>
+
+
+:: formation-randomize {"position":"475,675","size":"100,100"}
+<<contentLayout full>>
+<<hypeEmbed bdsx full>>
+<<hypeShowSceneNamed bdsx formation-randomize>>
+<<hypeStartTimelineNamed bdsx animation>>
+<</contentLayout>>
+
+
+:: instructions {"position":"875,100","size":"100,100"}
+<<contentLayout full>>
+<<hypeEmbed bdsx full>>
+<<hypeShowSceneNamed bdsx instructions>>
+<<hypeStartTimelineNamed bdsx animation>>
+<</contentLayout>>
+
+
+:: naw-gap {"position":"1025,550","size":"100,100"}
+<<contentLayout full>>
+<<hypeEmbed bdsx full>>
+<<hypeShowSceneNamed bdsx naw-gap>>
+<<hypeStartTimelineNamed bdsx animation>>
+<</contentLayout>>
+
+
+:: oooose {"position":"250,25","size":"100,100"}
+
+
+<<waitForHype>>
+  <<contentLayout full>>
+  <<hypeEmbed bdsx full>>
+  <<hypeShowSceneNamed bdsx choose>>
+  <<hypeStartTimelineNamed bdsx MainTimeline>>
+  <</contentLayout>>
+
+  <<hypeCode bdsx>>
+    var btn = document.querySelector('.breakbutton');
+    var Twine = hypeDocument.getTwineContext();
+    btn.onclick = function() {
+        Twine.Engine.play('title-b');
+    };
+  <</hypeCode>>
+  
+  <<hypeCode bdsx>>
+    var btn = document.querySelector('.dancebutton');
+    var Twine = hypeDocument.getTwineContext();
+    btn.onclick = function() {
+        Twine.Engine.play('title-d');
+    };
+  <</hypeCode>>
+  
+  
+<</waitForHype>>
+
+
+:: pocket-universe {"position":"775,550","size":"100,100"}
+<<contentLayout full>>
+<<hypeEmbed bdsx full>>
+<<hypeShowSceneNamed bdsx pocket-universe>>
+<<hypeStartTimelineNamed bdsx animation>>
+<</contentLayout>>
+
+
+:: start {"position":"100,25","size":"100,100"}
+
+
+[[choose]]
+
+[[oooose]]
+
+
+:: title-b {"position":"100,275","size":"100,100"}
+<<contentLayout full>>
+<<hypeEmbed bdsx full>>
+<<hypeShowSceneNamed bdsx title-b>>
+<<hypeStartTimelineNamed bdsx animation>>
+<</contentLayout>>
+
+
+:: title-d {"position":"225,275","size":"100,100"}
+<<contentLayout full>>
+<<hypeEmbed bdsx full>>
+<<hypeShowSceneNamed bdsx title-d>>
+<<hypeStartTimelineNamed bdsx animation>>
+<</contentLayout>>
+
+
+:: tresillo-stars {"position":"650,550","size":"100,100"}
+<<contentLayout full>>
+<<hypeEmbed bdsx full>>
+<<hypeShowSceneNamed bdsx tresillo-stars>>
+<<hypeStartTimelineNamed bdsx animation>>
+<</contentLayout>>
+
+
+:: StoryScript [script]
+/* de-nullify me please */
+(function () {
+    if (window.HYPE) {
+        var hypeDocument = HYPE.documents['bdsx']; // Replace 'bdsx' with your actual Hype project name.
+
+        if (!hypeDocument) {
+            console.error("Hype document not found");
+            return;
+        }
+
+        // Dispatch HypeReady when the first scene is loaded
+        document.addEventListener('HypeSceneLoad', function (event) {
+            if (!hypeDocument.customData.twineReady) {
+                console.log("Hype Scene Loaded:", event.detail.sceneName);
+                document.dispatchEvent(new Event('HypeReady')); // Trigger the custom event
+                hypeDocument.customData.twineReady = true; // Ensure this only fires once
+            }
+        }, false);
+    } else {
+        console.error("HYPE global object not found. Ensure Hype script is loaded.");
+    }
+});
+
+
+/*
+ HypeTwineStage.
+copyright (c) 2018 Max Ziebell, (https://maxziebell.de). MIT-license
+*/
+!1 === "HypeTwineStage" in window &&
+  (window.HypeTwineStage = (function () {
+    var l = "",
+      c = {},
+      k = new Function(
+        "hypeDocument",
+        "code",
+        "try{eval(code)}catch(e){var dN=hypeDocument.documentName();var sE=(e instanceof SyntaxError)?' Syntax':' ';alert('hypeCode '+dN+sE+'Error:\\n'+e.message);}"
+      );
+    !1 === "HYPE_eventListeners" in window && (window.HYPE_eventListeners = []);
+    window.HYPE_eventListeners.push({
+      type: "HypeDocumentLoad",
+      callback: function (b, a, d) {
+        a = b.documentName();
+        if (c.hasOwnProperty(a))
+          for (d = 1; c[a].length; ) {
+            var f = c[a].shift();
+            setTimeout(
+              function (a, b) {
+                k(a, b);
+              },
+              d,
+              b,
+              f
+            );
+            d += 5;
+          }
+        return !0;
+      },
+    });
+    window.HYPE_eventListeners.push({
+      type: "HypeDocumentLoad",
+      callback: function (b, a, d) {
+        b.getTwineContext = function () {
+          return {
+            Config: Config,
+            Dialog: Dialog,
+            Engine: Engine,
+            LoadScreen: LoadScreen,
+            Macro: Macro,
+            Passage: Passage,
+            Save: Save,
+            Setting: Setting,
+            State: State,
+            Story: Story,
+            UI: UI,
+            UIBar: UIBar,
+          };
+        };
+        return !0;
+      },
+    });
+    for (
+      var m =
+          "full left right bottom top topleft topright bottomleft bottomright".split(
+            " "
+          ),
+        g = [
+          ".hypeLayout-built-in > .hypeContainer { position: absolute; top:0; left:0; width:100% !important; height:100% !important;}",
+          ".hypeLayout-built-in.hypeEmbed, .hypeLayout-built-in.hypeEmbedAndCode { z-index: -10;}",
+          ".hypeLayout-full { position: fixed; top:0; left:0; width:100vw; height:100vh;}",
+          ".hypeLayout-left { position: fixed; top:0; left:0; width:50vw; height:100vh;}",
+          ".hypeLayout-right { position: fixed; top:0; left:50%; width:50vw; height:100vh;}",
+          ".hypeLayout-bottom { position: fixed; top:50%; left:0; width:100vw; height:50vh;}",
+          ".hypeLayout-top { position: fixed; top:0; left:0; width:100vw; height:50vh;}",
+          ".hypeLayout-topleft { position: fixed; top:0; left:0; width:50vw; height:50vh;}",
+          ".hypeLayout-topright { position: fixed; top:0; left:50%; width:50vw; height:50vh;}",
+          ".hypeLayout-bottomleft { position: fixed; top:50%; left:0; width:50vw; height:50vh;}",
+          ".hypeLayout-bottomright { position: fixed; top:50%; left:50%; width:50vw; height:50vh;}",
+          ".hypeLayout-built-in.contentLayout > .content { margin:2.5em; }",
+        ],
+        h = 1;
+      h < g.length;
+      h++
+    )
+      document.styleSheets[0].insertRule(g[h], h);
+    g = function () {
+      if (2 > this.args.length)
+        return this.error(
+          "Please provide documentName and (width and height) OR (layoutType) as arguments. Possible built in layout types are full, left, right, bottom, top, topleft, topright, bottomleft, bottomright."
+        );
+      var b = this.args[0],
+        a = this.args[0].split("-")[0],
+        d = this.args[0].split("-")[1];
+      if (_idx.hasOwnProperty(a)) {
+        if (
+          ((_idx[a + "_hint"] = _idx[a + "_hint"] ? _idx[a + "_hint"] + 1 : 1),
+          d != _idx[a])
+        )
+          return this.error(
+            "Equal hypeEmbeds need unique ID's per passage. Please use " +
+              a +
+              "-" +
+              _idx[a + "_hint"] +
+              " instead."
+          );
+      } else _idx[a] = 0;
+      _idx[a]++;
+      var f = a.replace(/[^a-z0-9]/gi, "").toLowerCase(),
+        e = "?" + (Math.ceil(1e3 * Math.random()) + 1e3),
+        c = "100%",
+        g = "100%";
+      d = this.args[1].toLowerCase();
+      var h = -1 < m.indexOf(d),
+        k = $("<div>");
+      3 == this.args.length &&
+        ((c = this.args[1]),
+        (g = this.args[2]),
+        (d = "block"),
+        k.css({ position: "relative", width: c, height: g }));
+      c = $("<div>", { id: f + "_hype_container" }).css({
+        position: "relative",
+        width: c,
+        height: g,
+        overflow: "hidden",
+      });
+      a = $("<script>", {
+        type: "text/javascript",
+        charset: "utf-8",
+        src: l + a + ".hyperesources/" + f + "_hype_generated_script.js" + e,
+      });
+      f = "";
+      null != this.payload &&
+        "hypeEmbedAndCode" == this.name &&
+        (f =
+          "<<hypeCode " +
+          b +
+          ">>" +
+          this.payload[0].contents +
+          "<</hypeCode>>");
+      k.wiki(f)
+        .append(c.addClass("hypeContainer").append(a))
+        .addClass(this.name)
+        .addClass("hypeLayout-" + d + (h ? " hypeLayout-built-in" : ""))
+        .addClass(b)
+        .appendTo(this.output);
+    };
+    Macro.add("hypeEmbed", { handler: g });
+    Macro.add("hypeEmbedAndCode", { tags: null, handler: g });
+    Macro.add("contentLayout", {
+      tags: null,
+      handler: function () {
+        var b = this.args[0].toLowerCase();
+        if (!b) return this.error("Please provide layoutType as argument.");
+        var a = -1 < m.indexOf(b),
+          d = this.payload[0].contents,
+          c = $("<div>"),
+          e = $("<div>");
+        c.append(e.wiki(d).addClass("content"))
+          .addClass(this.name)
+          .addClass("hypeLayout-" + b + (a ? " hypeLayout-built-in" : ""))
+          .appendTo(this.output);
+      },
+    });
+    Macro.add("hypeCode", {
+      tags: ['case', 'default'],
+      handler: function () {
+        var b = this.args[0],
+          a = this.payload[0].contents;
+        if (!b) return this.error("Please provide documentName as argument.");
+        if (!a) return this.error("Please provide code as payload.");
+        window.hasOwnProperty("HYPE") && HYPE.documents[b]
+          ? k(HYPE.documents[b], a)
+          : (c.hasOwnProperty(b) || (c[b] = []), c[b].push(a));
+      },
+    });
+    Macro.add("hypeShowSceneNamed", {
+      handler: function () {
+        if (2 != this.args.length)
+          return this.error(
+            "Please provide documentName and sceneName as arguments."
+          );
+        new Wikifier(
+          this.output,
+          "<<hypeCode " +
+            this.args[0] +
+            ">>" +
+            n("hypeDocument.showSceneNamed", ['"' + this.args[1] + '"']) +
+            "<</hypeCode>>"
+        );
+      },
+    });
+    Macro.add("hypeStartTimelineNamed", {
+      handler: function () {
+        if (2 > this.args.length)
+          return this.error(
+            "Please provide documentName, timelineName and direction (defaults to kDirectionForward) as arguments."
+          );
+        var b = this.args[0],
+          a = Wikifier,
+          d = this.output,
+          c = '"' + this.args[1] + '"';
+        var e = this.args[2] ? this.args[2] : "kDirectionForward";
+        e = "hypeDocument." == e.substring(0, 13) ? e : "hypeDocument." + e;
+        new a(
+          d,
+          "<<hypeCode " +
+            b +
+            ">>" +
+            n("hypeDocument.startTimelineNamed", [c, e]) +
+            "<</hypeCode>>"
+        );
+      },
+    });
+    var n = function (b, a) {
+      for (var c = b + "(", f = [], e = 0; e < a.length; e++) f.push(a[e]);
+      c += f.join(", ");
+      return c + ");";
+    };
+    return {
+      setServerPath: function (b) {
+        l = b.replace(/\/?$/, "/");
+      },
+    };
+  })());
+var _idx = {};
+$(document).on(":passageinit", function (l) {
+  $("head")
+    .find("div")
+    .each(function () {
+      $(this).remove();
+    });
+  if (window.hasOwnProperty("HYPE"))
+    for (var c in window.HYPE.documents) delete window.HYPE.documents[c];
+  _idx = {};
+});
+
+/* Hide UI (sidebar)*/
+UIBar.stow();
+
+/* Set work path for Hype ressources */
+HypeTwineStage.setServerPath('https://warp.irlh.org/BD/anima');
+
+
+
+/* outputter */
+
+// Function to convert history to CSV
+function exportHistoryToCSV() {
+    const history = State.history;
+    let csvContent = "data:text/csv;charset=utf-8,Passage,Variables\n";
+
+    history.forEach((entry, index) => {
+        const passageName = entry.title;
+        const variables = JSON.stringify(entry.variables);
+        csvContent += `${passageName},${variables}\n`;
+    });
+
+    // Encode CSV content
+    const encodedUri = encodeURI(csvContent);
+    const link = document.createElement("a");
+    link.setAttribute("href", encodedUri);
+    link.setAttribute("download", "story_history.csv");
+    document.body.appendChild(link);
+
+    link.click();
+    document.body.removeChild(link);
+}
+
+// Add a button to call the export function
+$(document).on('click', '#export-history', function() {
+    exportHistoryToCSV();
+});
+
+
+
+:: StoryStylesheet [stylesheet]
+* 
+Custom layout option for hypeEmbed
+Use "center" as layoutType
+*/
+.hypeLayout-center { position: fixed; z-index: -90; top:25%; left:25%; width:50vw !important; height:50vh !important;}
+
+.hypeLayout-center > div { position: absolute; top:0; left:0; width:100% !important; height:100% !important;}',
+
+
