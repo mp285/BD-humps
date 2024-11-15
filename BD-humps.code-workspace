@@ -4,5 +4,7 @@
 			"path": "/workspaces/BD-humps"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"twee3LanguageTools.storyformat.current": "sugarcube-2"
+	}
 }
